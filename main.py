@@ -1,13 +1,13 @@
 print("Lista zakupów:")
 shopping_dict = {
     'piekarnia': ['chleb', 'pączek', 'bułki'],
-    'warzywniak': ['marchew', 'seler', 'rukola']
+    'warzywniak': ['marchew', 'seler', 'rukola', 'ogórek', 'pomidor']
 }
-capi_shopping_dict = {key.capitalize(): [value.capitalize() for value in values] for key, values in shopping_dict.items()}
+upper_shopping_dict = {key.upper(): [value.upper() for value in values] for key, values in shopping_dict.items()}
 
 value_count = 0
 shop_count = 0
-for key, value in capi_shopping_dict.items():
+for key, value in upper_shopping_dict.items():
     print(f"Idę do {key}, kupuję tu następujące rzeczy: {value}")
     value_count += len(value)
     shop_count += 1
