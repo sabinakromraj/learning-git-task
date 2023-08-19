@@ -1,7 +1,7 @@
 print("Lista zakupów:")
 shopping_dict = {
     'piekarnia': ['chleb', 'pączek', 'bułki'],
-    'warzywniak': ['marchew', 'seler', 'rukola', 'ogórek', 'pomidor']
+    'warzywniak': ['marchew', 'seler', 'rukola', 'ogórek', 'pomidor', 'papryka']
 }
 upper_shopping_dict = {key.upper(): [value.upper() for value in values] for key, values in shopping_dict.items()}
 
