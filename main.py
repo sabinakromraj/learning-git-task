@@ -13,3 +13,7 @@ for key, value in upper_shopping_dict.items():
     shop_count += 1
     
 print(f"W sumie kupuję {value_count} produktów w {shop_count} sklepach.")
+
+mentor_name = 'Maciej'
+print(f"Specjalne pozdrowienia dla {mentor_name} z drugiego branchu :)")
+#mam nadzieję, że to dobrze wyszło :D
